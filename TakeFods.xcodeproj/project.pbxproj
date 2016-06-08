@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECF557461D07B68600A84EED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557451D07B68600A84EED /* AppDelegate.swift */; };
+		ECF557481D07B68600A84EED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557471D07B68600A84EED /* ViewController.swift */; };
+		ECF5574B1D07B68600A84EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF557491D07B68600A84EED /* Main.storyboard */; };
+		ECF5574D1D07B68600A84EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF5574C1D07B68600A84EED /* Assets.xcassets */; };
+		ECF557501D07B68600A84EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF5574E1D07B68600A84EED /* LaunchScreen.storyboard */; };
+		ECF5575B1D07B68600A84EED /* TakeFodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5575A1D07B68600A84EED /* TakeFodsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECF557571D07B68600A84EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF5573A1D07B68600A84EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF557411D07B68600A84EED;
+			remoteInfo = TakeFods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECF557421D07B68600A84EED /* TakeFods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeFods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF557451D07B68600A84EED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECF557471D07B68600A84EED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECF5574A1D07B68600A84EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF5574C1D07B68600A84EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF5574F1D07B68600A84EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECF557511D07B68600A84EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF557561D07B68600A84EED /* TakeFodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeFodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF5575A1D07B68600A84EED /* TakeFodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeFodsTests.swift; sourceTree = "<group>"; };
+		ECF5575C1D07B68600A84EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECF5573F1D07B68600A84EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF557531D07B68600A84EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECF557391D07B68600A84EED = {
+			isa = PBXGroup;
+			children = (
+				ECF557441D07B68600A84EED /* TakeFods */,
+				ECF557591D07B68600A84EED /* TakeFodsTests */,
+				ECF557431D07B68600A84EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECF557431D07B68600A84EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557421D07B68600A84EED /* TakeFods.app */,
+				ECF557561D07B68600A84EED /* TakeFodsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECF557441D07B68600A84EED /* TakeFods */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557451D07B68600A84EED /* AppDelegate.swift */,
+				ECF557471D07B68600A84EED /* ViewController.swift */,
+				ECF557491D07B68600A84EED /* Main.storyboard */,
+				ECF5574C1D07B68600A84EED /* Assets.xcassets */,
+				ECF5574E1D07B68600A84EED /* LaunchScreen.storyboard */,
+				ECF557511D07B68600A84EED /* Info.plist */,
+			);
+			path = TakeFods;
+			sourceTree = "<group>";
+		};
+		ECF557591D07B68600A84EED /* TakeFodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF5575A1D07B68600A84EED /* TakeFodsTests.swift */,
+				ECF5575C1D07B68600A84EED /* Info.plist */,
+			);
+			path = TakeFodsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECF557411D07B68600A84EED /* TakeFods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF5575F1D07B68600A84EED /* Build configuration list for PBXNativeTarget "TakeFods" */;
+			buildPhases = (
+				ECF5573E1D07B68600A84EED /* Sources */,
+				ECF5573F1D07B68600A84EED /* Frameworks */,
+				ECF557401D07B68600A84EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeFods;
+			productName = TakeFods;
+			productReference = ECF557421D07B68600A84EED /* TakeFods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECF557551D07B68600A84EED /* TakeFodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF557621D07B68600A84EED /* Build configuration list for PBXNativeTarget "TakeFodsTests" */;
+			buildPhases = (
+				ECF557521D07B68600A84EED /* Sources */,
+				ECF557531D07B68600A84EED /* Frameworks */,
+				ECF557541D07B68600A84EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF557581D07B68600A84EED /* PBXTargetDependency */,
+			);
+			name = TakeFodsTests;
+			productName = TakeFodsTests;
+			productReference = ECF557561D07B68600A84EED /* TakeFodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECF5573A1D07B68600A84EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DevHack;
+				TargetAttributes = {
+					ECF557411D07B68600A84EED = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					ECF557551D07B68600A84EED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ECF557411D07B68600A84EED;
+					};
+				};
+			};
+			buildConfigurationList = ECF5573D1D07B68600A84EED /* Build configuration list for PBXProject "TakeFods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECF557391D07B68600A84EED;
+			productRefGroup = ECF557431D07B68600A84EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECF557411D07B68600A84EED /* TakeFods */,
+				ECF557551D07B68600A84EED /* TakeFodsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF557401D07B68600A84EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF557501D07B68600A84EED /* LaunchScreen.storyboard in Resources */,
+				ECF5574D1D07B68600A84EED /* Assets.xcassets in Resources */,
+				ECF5574B1D07B68600A84EED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF557541D07B68600A84EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECF5573E1D07B68600A84EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF557481D07B68600A84EED /* ViewController.swift in Sources */,
+				ECF557461D07B68600A84EED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF557521D07B68600A84EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF5575B1D07B68600A84EED /* TakeFodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECF557581D07B68600A84EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF557411D07B68600A84EED /* TakeFods */;
+			targetProxy = ECF557571D07B68600A84EED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECF557491D07B68600A84EED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF5574A1D07B68600A84EED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF5574E1D07B68600A84EED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF5574F1D07B68600A84EED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECF5575D1D07B68600A84EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECF5575E1D07B68600A84EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF557601D07B68600A84EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TakeFods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.devhack.TakeFods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECF557611D07B68600A84EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TakeFods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.devhack.TakeFods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECF557631D07B68600A84EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TakeFodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.devhack.TakeFodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeFods.app/TakeFods";
+			};
+			name = Debug;
+		};
+		ECF557641D07B68600A84EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TakeFodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.devhack.TakeFodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeFods.app/TakeFods";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECF5573D1D07B68600A84EED /* Build configuration list for PBXProject "TakeFods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF5575D1D07B68600A84EED /* Debug */,
+				ECF5575E1D07B68600A84EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF5575F1D07B68600A84EED /* Build configuration list for PBXNativeTarget "TakeFods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF557601D07B68600A84EED /* Debug */,
+				ECF557611D07B68600A84EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECF557621D07B68600A84EED /* Build configuration list for PBXNativeTarget "TakeFodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF557631D07B68600A84EED /* Debug */,
+				ECF557641D07B68600A84EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECF5573A1D07B68600A84EED /* Project object */;
+}
