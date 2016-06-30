@@ -7,12 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53CB805D96094D7D14E048EE /* Pods_TakeFods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D53759E61DC1A8494E69B55 /* Pods_TakeFods.framework */; };
+		ABEC5FFCFCCD50BBB66FE480 /* Pods_TakeFodsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0D2E392227F68B8D21C921 /* Pods_TakeFodsUITests.framework */; };
+		AD6E1183F7796897B411A2C7 /* Pods_TakeFodsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F8DF3E6015FC7DB4F01A59 /* Pods_TakeFodsTests.framework */; };
 		ECF557461D07B68600A84EED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557451D07B68600A84EED /* AppDelegate.swift */; };
-		ECF557481D07B68600A84EED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557471D07B68600A84EED /* ViewController.swift */; };
-		ECF5574B1D07B68600A84EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF557491D07B68600A84EED /* Main.storyboard */; };
 		ECF5574D1D07B68600A84EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF5574C1D07B68600A84EED /* Assets.xcassets */; };
 		ECF557501D07B68600A84EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF5574E1D07B68600A84EED /* LaunchScreen.storyboard */; };
 		ECF5575B1D07B68600A84EED /* TakeFodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5575A1D07B68600A84EED /* TakeFodsTests.swift */; };
+		ECF557671D07B6BE00A84EED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557661D07B6BE00A84EED /* User.swift */; };
+		ECF5576B1D07B74B00A84EED /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5576A1D07B74B00A84EED /* SignInViewController.swift */; };
+		ECF5576F1D07B8CD00A84EED /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5576E1D07B8CD00A84EED /* HTTPStatusCode.swift */; };
+		ECF557711D07B8E800A84EED /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557701D07B8E800A84EED /* ApiClient.swift */; };
+		ECF557731D07B90D00A84EED /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557721D07B90D00A84EED /* Router.swift */; };
+		ECF557761D08509C00A84EED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557751D08509C00A84EED /* Constants.swift */; };
+		ECF557791D0850FD00A84EED /* Validator+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557781D0850FD00A84EED /* Validator+Extension.swift */; };
+		ECF5577B1D08518A00A84EED /* TFDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5577A1D08518A00A84EED /* TFDateFormatter.swift */; };
+		ECF5577D1D0851F200A84EED /* Object+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5577C1D0851F200A84EED /* Object+Extension.swift */; };
+		ECF5577F1D08520D00A84EED /* Realm+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5577E1D08520D00A84EED /* Realm+Extension.swift */; };
+		ECF557811D08524C00A84EED /* NSUserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557801D08524C00A84EED /* NSUserDefaults+Extension.swift */; };
+		ECF557831D0852D000A84EED /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557821D0852D000A84EED /* UIImage+Extension.swift */; };
+		ECF557861D08536B00A84EED /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557851D08536B00A84EED /* AuthenticationService.swift */; };
+		ECF557881D0853DA00A84EED /* NSMutableURLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557871D0853DA00A84EED /* NSMutableURLRequest+Extension.swift */; };
+		ECF5578A1D08542500A84EED /* Request+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557891D08542500A84EED /* Request+Extension.swift */; };
+		ECF5578C1D08547B00A84EED /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5578B1D08547B00A84EED /* City.swift */; };
+		ECF5578E1D0854E800A84EED /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5578D1D0854E800A84EED /* UINavigationController+Extension.swift */; };
+		ECF557901D08559A00A84EED /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5578F1D08559A00A84EED /* UIViewController+Extension.swift */; };
+		ECF557941D08568E00A84EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF557931D08568E00A84EED /* Main.storyboard */; };
+		ECF557971D08590200A84EED /* UserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557961D08590200A84EED /* UserSpec.swift */; };
+		ECF5579A1D08597500A84EED /* UserBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557991D08597500A84EED /* UserBuilder.swift */; };
+		ECF5579C1D0859A400A84EED /* CityBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5579B1D0859A400A84EED /* CityBuilder.swift */; };
+		ECF5579E1D0859D800A84EED /* BaseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5579D1D0859D800A84EED /* BaseSpec.swift */; };
+		ECF557A11D085AE400A84EED /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = ECF557A01D085AE400A84EED /* user.json */; };
+		ECF557F01D0862CA00A84EED /* BaseUISpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557EE1D0862CA00A84EED /* BaseUISpec.swift */; };
+		ECF557F11D0862CA00A84EED /* KIF+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557EF1D0862CA00A84EED /* KIF+Extensions.swift */; };
+		ECF557F51D0862DA00A84EED /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = ECF557A01D085AE400A84EED /* user.json */; };
+		ECF557F61D0862EA00A84EED /* BaseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF5579D1D0859D800A84EED /* BaseSpec.swift */; };
+		ECF557F71D0863CF00A84EED /* SignInSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF557F31D0862D100A84EED /* SignInSpec.swift */; };
+		ECF557F91D08651A00A84EED /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = ECF557F81D08651A00A84EED /* error.json */; };
+		ECF557FA1D08651C00A84EED /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = ECF557F81D08651A00A84EED /* error.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +55,63 @@
 			remoteGlobalIDString = ECF557411D07B68600A84EED;
 			remoteInfo = TakeFods;
 		};
+		ECF557E81D08621C00A84EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF5573A1D07B68600A84EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF557411D07B68600A84EED;
+			remoteInfo = TakeFods;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1712BDE613A526875A6E0636 /* Pods-TakeFodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeFodsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeFodsTests/Pods-TakeFodsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C0D2E392227F68B8D21C921 /* Pods_TakeFodsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeFodsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F8DF3E6015FC7DB4F01A59 /* Pods_TakeFodsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeFodsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D53759E61DC1A8494E69B55 /* Pods_TakeFods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeFods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633E3CC427036BE6561B1476 /* Pods-TakeFodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeFodsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeFodsUITests/Pods-TakeFodsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B7FC9BBD417E4AB2F37EB58 /* Pods-TakeFods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeFods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeFods/Pods-TakeFods.debug.xcconfig"; sourceTree = "<group>"; };
+		7EB69072E93486318771EFAB /* Pods-TakeFods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeFods.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeFods/Pods-TakeFods.release.xcconfig"; sourceTree = "<group>"; };
+		80AFEA817979EB226054023C /* Pods-TakeFodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeFodsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeFodsTests/Pods-TakeFodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEDC9E119B0B8F05F6AE9016 /* Pods-TakeFodsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeFodsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeFodsUITests/Pods-TakeFodsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF557421D07B68600A84EED /* TakeFods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeFods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF557451D07B68600A84EED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECF557471D07B68600A84EED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ECF5574A1D07B68600A84EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECF5574C1D07B68600A84EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECF5574F1D07B68600A84EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECF557511D07B68600A84EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECF557561D07B68600A84EED /* TakeFodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeFodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF5575A1D07B68600A84EED /* TakeFodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeFodsTests.swift; sourceTree = "<group>"; };
 		ECF5575C1D07B68600A84EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF557661D07B6BE00A84EED /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ECF5576A1D07B74B00A84EED /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		ECF5576E1D07B8CD00A84EED /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		ECF557701D07B8E800A84EED /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		ECF557721D07B90D00A84EED /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		ECF557751D08509C00A84EED /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ECF557781D0850FD00A84EED /* Validator+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Validator+Extension.swift"; sourceTree = "<group>"; };
+		ECF5577A1D08518A00A84EED /* TFDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFDateFormatter.swift; sourceTree = "<group>"; };
+		ECF5577C1D0851F200A84EED /* Object+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Object+Extension.swift"; sourceTree = "<group>"; };
+		ECF5577E1D08520D00A84EED /* Realm+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Realm+Extension.swift"; sourceTree = "<group>"; };
+		ECF557801D08524C00A84EED /* NSUserDefaults+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		ECF557821D0852D000A84EED /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		ECF557851D08536B00A84EED /* AuthenticationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		ECF557871D0853DA00A84EED /* NSMutableURLRequest+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableURLRequest+Extension.swift"; sourceTree = "<group>"; };
+		ECF557891D08542500A84EED /* Request+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Request+Extension.swift"; sourceTree = "<group>"; };
+		ECF5578B1D08547B00A84EED /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		ECF5578D1D0854E800A84EED /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		ECF5578F1D08559A00A84EED /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		ECF557931D08568E00A84EED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ECF557961D08590200A84EED /* UserSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSpec.swift; sourceTree = "<group>"; };
+		ECF557991D08597500A84EED /* UserBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserBuilder.swift; sourceTree = "<group>"; };
+		ECF5579B1D0859A400A84EED /* CityBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityBuilder.swift; sourceTree = "<group>"; };
+		ECF5579D1D0859D800A84EED /* BaseSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseSpec.swift; sourceTree = "<group>"; };
+		ECF557A01D085AE400A84EED /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		ECF557E31D08621C00A84EED /* TakeFodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeFodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF557E71D08621C00A84EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF557EE1D0862CA00A84EED /* BaseUISpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUISpec.swift; sourceTree = "<group>"; };
+		ECF557EF1D0862CA00A84EED /* KIF+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KIF+Extensions.swift"; sourceTree = "<group>"; };
+		ECF557F31D0862D100A84EED /* SignInSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInSpec.swift; sourceTree = "<group>"; };
+		ECF557F81D08651A00A84EED /* error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = error.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53CB805D96094D7D14E048EE /* Pods_TakeFods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +127,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6E1183F7796897B411A2C7 /* Pods_TakeFodsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF557E01D08621C00A84EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEC5FFCFCCD50BBB66FE480 /* Pods_TakeFodsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033FD49577998340CE76615B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B7FC9BBD417E4AB2F37EB58 /* Pods-TakeFods.debug.xcconfig */,
+				7EB69072E93486318771EFAB /* Pods-TakeFods.release.xcconfig */,
+				1712BDE613A526875A6E0636 /* Pods-TakeFodsTests.debug.xcconfig */,
+				80AFEA817979EB226054023C /* Pods-TakeFodsTests.release.xcconfig */,
+				BEDC9E119B0B8F05F6AE9016 /* Pods-TakeFodsUITests.debug.xcconfig */,
+				633E3CC427036BE6561B1476 /* Pods-TakeFodsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0F58B95A74A1CFA4A6FD846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D53759E61DC1A8494E69B55 /* Pods_TakeFods.framework */,
+				31F8DF3E6015FC7DB4F01A59 /* Pods_TakeFodsTests.framework */,
+				1C0D2E392227F68B8D21C921 /* Pods_TakeFodsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECF557391D07B68600A84EED = {
 			isa = PBXGroup;
 			children = (
 				ECF557441D07B68600A84EED /* TakeFods */,
 				ECF557591D07B68600A84EED /* TakeFodsTests */,
+				ECF557E41D08621C00A84EED /* TakeFodsUITests */,
 				ECF557431D07B68600A84EED /* Products */,
+				033FD49577998340CE76615B /* Pods */,
+				E0F58B95A74A1CFA4A6FD846 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +182,7 @@
 			children = (
 				ECF557421D07B68600A84EED /* TakeFods.app */,
 				ECF557561D07B68600A84EED /* TakeFodsTests.xctest */,
+				ECF557E31D08621C00A84EED /* TakeFodsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +190,14 @@
 		ECF557441D07B68600A84EED /* TakeFods */ = {
 			isa = PBXGroup;
 			children = (
+				ECF557841D08530900A84EED /* Services */,
+				ECF557771D0850E600A84EED /* Extensions */,
+				ECF557741D08508500A84EED /* Utils */,
+				ECF5576D1D07B8A800A84EED /* APIs */,
+				ECF557681D07B70200A84EED /* ViewControllers */,
+				ECF557651D07B69B00A84EED /* Models */,
+				ECF5576C1D07B84C00A84EED /* Storyboards */,
 				ECF557451D07B68600A84EED /* AppDelegate.swift */,
-				ECF557471D07B68600A84EED /* ViewController.swift */,
-				ECF557491D07B68600A84EED /* Main.storyboard */,
 				ECF5574C1D07B68600A84EED /* Assets.xcassets */,
 				ECF5574E1D07B68600A84EED /* LaunchScreen.storyboard */,
 				ECF557511D07B68600A84EED /* Info.plist */,
@@ -90,10 +208,143 @@
 		ECF557591D07B68600A84EED /* TakeFodsTests */ = {
 			isa = PBXGroup;
 			children = (
+				ECF5579F1D085AC000A84EED /* Fixtures */,
+				ECF557981D08595B00A84EED /* Support */,
+				ECF557951D0858E000A84EED /* Models */,
 				ECF5575A1D07B68600A84EED /* TakeFodsTests.swift */,
 				ECF5575C1D07B68600A84EED /* Info.plist */,
 			);
 			path = TakeFodsTests;
+			sourceTree = "<group>";
+		};
+		ECF557651D07B69B00A84EED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557661D07B6BE00A84EED /* User.swift */,
+				ECF5578B1D08547B00A84EED /* City.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECF557681D07B70200A84EED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557691D07B71800A84EED /* Authentication */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ECF557691D07B71800A84EED /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				ECF5576A1D07B74B00A84EED /* SignInViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		ECF5576C1D07B84C00A84EED /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557931D08568E00A84EED /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		ECF5576D1D07B8A800A84EED /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				ECF5576E1D07B8CD00A84EED /* HTTPStatusCode.swift */,
+				ECF557701D07B8E800A84EED /* ApiClient.swift */,
+				ECF557721D07B90D00A84EED /* Router.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		ECF557741D08508500A84EED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557751D08509C00A84EED /* Constants.swift */,
+				ECF5577A1D08518A00A84EED /* TFDateFormatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ECF557771D0850E600A84EED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557781D0850FD00A84EED /* Validator+Extension.swift */,
+				ECF5577C1D0851F200A84EED /* Object+Extension.swift */,
+				ECF5577E1D08520D00A84EED /* Realm+Extension.swift */,
+				ECF557801D08524C00A84EED /* NSUserDefaults+Extension.swift */,
+				ECF557821D0852D000A84EED /* UIImage+Extension.swift */,
+				ECF557871D0853DA00A84EED /* NSMutableURLRequest+Extension.swift */,
+				ECF557891D08542500A84EED /* Request+Extension.swift */,
+				ECF5578D1D0854E800A84EED /* UINavigationController+Extension.swift */,
+				ECF5578F1D08559A00A84EED /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECF557841D08530900A84EED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557851D08536B00A84EED /* AuthenticationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ECF557951D0858E000A84EED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557961D08590200A84EED /* UserSpec.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECF557981D08595B00A84EED /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557991D08597500A84EED /* UserBuilder.swift */,
+				ECF5579B1D0859A400A84EED /* CityBuilder.swift */,
+				ECF5579D1D0859D800A84EED /* BaseSpec.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		ECF5579F1D085AC000A84EED /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557A01D085AE400A84EED /* user.json */,
+				ECF557F81D08651A00A84EED /* error.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		ECF557E41D08621C00A84EED /* TakeFodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557F21D0862D100A84EED /* Authentication */,
+				ECF557ED1D0862CA00A84EED /* Support */,
+				ECF557E71D08621C00A84EED /* Info.plist */,
+			);
+			path = TakeFodsUITests;
+			sourceTree = "<group>";
+		};
+		ECF557ED1D0862CA00A84EED /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557EE1D0862CA00A84EED /* BaseUISpec.swift */,
+				ECF557EF1D0862CA00A84EED /* KIF+Extensions.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		ECF557F21D0862D100A84EED /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				ECF557F31D0862D100A84EED /* SignInSpec.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +354,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECF5575F1D07B68600A84EED /* Build configuration list for PBXNativeTarget "TakeFods" */;
 			buildPhases = (
+				D7BD678730616229C503272E /* Check Pods Manifest.lock */,
 				ECF5573E1D07B68600A84EED /* Sources */,
 				ECF5573F1D07B68600A84EED /* Frameworks */,
 				ECF557401D07B68600A84EED /* Resources */,
+				800B9172EACB271F55698C84 /* Embed Pods Frameworks */,
+				07369DDF422CE86DB75D82EF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +374,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECF557621D07B68600A84EED /* Build configuration list for PBXNativeTarget "TakeFodsTests" */;
 			buildPhases = (
+				F20FF75F43E7D89F00AA9607 /* Check Pods Manifest.lock */,
 				ECF557521D07B68600A84EED /* Sources */,
 				ECF557531D07B68600A84EED /* Frameworks */,
 				ECF557541D07B68600A84EED /* Resources */,
+				88A4733AD85D3A417F6DE0BF /* Embed Pods Frameworks */,
+				608766FDAC4444F474657897 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +389,27 @@
 			name = TakeFodsTests;
 			productName = TakeFodsTests;
 			productReference = ECF557561D07B68600A84EED /* TakeFodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECF557E21D08621C00A84EED /* TakeFodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF557EA1D08621C00A84EED /* Build configuration list for PBXNativeTarget "TakeFodsUITests" */;
+			buildPhases = (
+				0E5EFEA8D2DA36057B785816 /* Check Pods Manifest.lock */,
+				ECF557DF1D08621C00A84EED /* Sources */,
+				ECF557E01D08621C00A84EED /* Frameworks */,
+				ECF557E11D08621C00A84EED /* Resources */,
+				8FA3B63FFAE94281835EA84E /* Embed Pods Frameworks */,
+				B864661CF0F89CACE2A6732B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF557E91D08621C00A84EED /* PBXTargetDependency */,
+			);
+			name = TakeFodsUITests;
+			productName = TakeFodsUITests;
+			productReference = ECF557E31D08621C00A84EED /* TakeFodsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -148,6 +426,10 @@
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					ECF557551D07B68600A84EED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ECF557411D07B68600A84EED;
+					};
+					ECF557E21D08621C00A84EED = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = ECF557411D07B68600A84EED;
 					};
@@ -168,6 +450,7 @@
 			targets = (
 				ECF557411D07B68600A84EED /* TakeFods */,
 				ECF557551D07B68600A84EED /* TakeFodsTests */,
+				ECF557E21D08621C00A84EED /* TakeFodsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -179,7 +462,7 @@
 			files = (
 				ECF557501D07B68600A84EED /* LaunchScreen.storyboard in Resources */,
 				ECF5574D1D07B68600A84EED /* Assets.xcassets in Resources */,
-				ECF5574B1D07B68600A84EED /* Main.storyboard in Resources */,
+				ECF557941D08568E00A84EED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,18 +470,184 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF557F91D08651A00A84EED /* error.json in Resources */,
+				ECF557A11D085AE400A84EED /* user.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF557E11D08621C00A84EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF557FA1D08651C00A84EED /* error.json in Resources */,
+				ECF557F51D0862DA00A84EED /* user.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07369DDF422CE86DB75D82EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakeFods/Pods-TakeFods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E5EFEA8D2DA36057B785816 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		608766FDAC4444F474657897 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakeFodsTests/Pods-TakeFodsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		800B9172EACB271F55698C84 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakeFods/Pods-TakeFods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88A4733AD85D3A417F6DE0BF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakeFodsTests/Pods-TakeFodsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA3B63FFAE94281835EA84E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakeFodsUITests/Pods-TakeFodsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B864661CF0F89CACE2A6732B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakeFodsUITests/Pods-TakeFodsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7BD678730616229C503272E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F20FF75F43E7D89F00AA9607 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ECF5573E1D07B68600A84EED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECF557481D07B68600A84EED /* ViewController.swift in Sources */,
+				ECF557831D0852D000A84EED /* UIImage+Extension.swift in Sources */,
+				ECF5576B1D07B74B00A84EED /* SignInViewController.swift in Sources */,
 				ECF557461D07B68600A84EED /* AppDelegate.swift in Sources */,
+				ECF5578A1D08542500A84EED /* Request+Extension.swift in Sources */,
+				ECF5577D1D0851F200A84EED /* Object+Extension.swift in Sources */,
+				ECF5577B1D08518A00A84EED /* TFDateFormatter.swift in Sources */,
+				ECF557791D0850FD00A84EED /* Validator+Extension.swift in Sources */,
+				ECF5576F1D07B8CD00A84EED /* HTTPStatusCode.swift in Sources */,
+				ECF557901D08559A00A84EED /* UIViewController+Extension.swift in Sources */,
+				ECF557671D07B6BE00A84EED /* User.swift in Sources */,
+				ECF5578C1D08547B00A84EED /* City.swift in Sources */,
+				ECF557761D08509C00A84EED /* Constants.swift in Sources */,
+				ECF557731D07B90D00A84EED /* Router.swift in Sources */,
+				ECF557811D08524C00A84EED /* NSUserDefaults+Extension.swift in Sources */,
+				ECF557711D07B8E800A84EED /* ApiClient.swift in Sources */,
+				ECF5577F1D08520D00A84EED /* Realm+Extension.swift in Sources */,
+				ECF557861D08536B00A84EED /* AuthenticationService.swift in Sources */,
+				ECF557881D0853DA00A84EED /* NSMutableURLRequest+Extension.swift in Sources */,
+				ECF5578E1D0854E800A84EED /* UINavigationController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +655,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF5579C1D0859A400A84EED /* CityBuilder.swift in Sources */,
 				ECF5575B1D07B68600A84EED /* TakeFodsTests.swift in Sources */,
+				ECF557971D08590200A84EED /* UserSpec.swift in Sources */,
+				ECF5579A1D08597500A84EED /* UserBuilder.swift in Sources */,
+				ECF5579E1D0859D800A84EED /* BaseSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF557DF1D08621C00A84EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF557F11D0862CA00A84EED /* KIF+Extensions.swift in Sources */,
+				ECF557F01D0862CA00A84EED /* BaseUISpec.swift in Sources */,
+				ECF557F71D0863CF00A84EED /* SignInSpec.swift in Sources */,
+				ECF557F61D0862EA00A84EED /* BaseSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,17 +682,14 @@
 			target = ECF557411D07B68600A84EED /* TakeFods */;
 			targetProxy = ECF557571D07B68600A84EED /* PBXContainerItemProxy */;
 		};
+		ECF557E91D08621C00A84EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF557411D07B68600A84EED /* TakeFods */;
+			targetProxy = ECF557E81D08621C00A84EED /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECF557491D07B68600A84EED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECF5574A1D07B68600A84EED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ECF5574E1D07B68600A84EED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -327,6 +788,7 @@
 		};
 		ECF557601D07B68600A84EED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7FC9BBD417E4AB2F37EB58 /* Pods-TakeFods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TakeFods/Info.plist;
@@ -338,6 +800,7 @@
 		};
 		ECF557611D07B68600A84EED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB69072E93486318771EFAB /* Pods-TakeFods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TakeFods/Info.plist;
@@ -349,6 +812,7 @@
 		};
 		ECF557631D07B68600A84EED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1712BDE613A526875A6E0636 /* Pods-TakeFodsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TakeFodsTests/Info.plist;
@@ -361,11 +825,38 @@
 		};
 		ECF557641D07B68600A84EED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80AFEA817979EB226054023C /* Pods-TakeFodsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TakeFodsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.devhack.TakeFodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeFods.app/TakeFods";
+			};
+			name = Release;
+		};
+		ECF557EB1D08621C00A84EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEDC9E119B0B8F05F6AE9016 /* Pods-TakeFodsUITests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TakeFodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.devhack.TakeFodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeFods.app/TakeFods";
+			};
+			name = Debug;
+		};
+		ECF557EC1D08621C00A84EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633E3CC427036BE6561B1476 /* Pods-TakeFodsUITests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TakeFodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.devhack.TakeFodsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeFods.app/TakeFods";
 			};
@@ -390,6 +881,7 @@
 				ECF557611D07B68600A84EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECF557621D07B68600A84EED /* Build configuration list for PBXNativeTarget "TakeFodsTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +890,16 @@
 				ECF557641D07B68600A84EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF557EA1D08621C00A84EED /* Build configuration list for PBXNativeTarget "TakeFodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF557EB1D08621C00A84EED /* Debug */,
+				ECF557EC1D08621C00A84EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

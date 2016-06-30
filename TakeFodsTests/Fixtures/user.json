@@ -1,0 +1,19 @@
+{
+   "Authenticated":false,
+   "Token":"trg83h5b3",
+   "TokenExpires":"2017-04-23T18:25:43.511Z",
+   "User":{
+      "Id":1,
+      "Email":"test@email.com",
+      "FirstName":"Tan",
+      "LastName":"Vu",
+      "WorkAddress":"Singapore",
+      "NextBillingDate":"2018-04-23T18:25:43.511Z",
+      "StartDate":"2014-04-23T18:25:43.511Z",
+      "City":{
+         "Id":1,
+         "Name":"Da Nang",
+         "State":"NA",
+      }
+   }
+}
